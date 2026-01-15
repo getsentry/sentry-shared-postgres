@@ -1,5 +1,5 @@
 name: 'CI'
-description: 'Validates sentry-shared-kafka devservices config'
+description: 'Validates sentry-shared-postgres devservices config'
 
 on:
   push:
