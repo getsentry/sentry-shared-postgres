@@ -1,2 +1,2 @@
-# sentry-shared-postgres
-Shared postgres instance used across developer environments
+# sentry-shared-kafka
+shared kafka instance used across developer environments
