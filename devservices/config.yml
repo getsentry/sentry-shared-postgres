@@ -9,7 +9,7 @@ x-sentry-service-config:
 
 services:
   postgres:
-    image: ghcr.io/getsentry/image-mirror-library-postgres:14-alpine
+    image: ghcr.io/getsentry/image-mirror-library-postgres:17-alpine
     environment:
       POSTGRES_HOST_AUTH_METHOD: trust
       POSTGRES_DB: sentry
