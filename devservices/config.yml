@@ -41,7 +41,7 @@ services:
     restart: unless-stopped
 
 volumes:
-  postgres-data:
+  postgres-data-v18:
 
 
 networks:
