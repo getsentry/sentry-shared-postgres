@@ -31,7 +31,7 @@ services:
     networks:
       - devservices
     volumes:
-      - postgres-data-v18:/var/lib/postgresql
+      - postgres-data:/var/lib/postgresql
     ports:
       - 127.0.0.1:5432:5432
     extra_hosts:
@@ -41,7 +41,7 @@ services:
     restart: unless-stopped
 
 volumes:
-  postgres-data-v18:
+  postgres-data:
 
 
 networks:
